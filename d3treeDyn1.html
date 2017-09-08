@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<body>
+
+    <!-- Settings Menu -->
+    <div id="dsettings" class="settings-container">
+                <div class="icon-bar">
+                    <a href="#" id="menuToolTipsToggle"     onclick="showToolTips();return false;"          title="Toggle Faults Tooltips"       class="toggle-on"> <i class="fa fa-exclamation-circle"></i></a>
+                    <a href="#" id="menuPropToggle"         onclick="showProperties();return false;"        title="Toggle Properties Window"     class="toggle-on"> <i class="fa fa-info"></i></a> 
+                    <a href="#" id="menuMessageToggle"      onclick="showMessageWindow();return false;"     title="Toggle App Messages Window"   class="toggle-on"> <i class="fa fa-comment"></i></a> 
+                    <a href="#" id="menuParentToggle"       onclick="toggleParentDownStream();return false;"title="Toggle Downstream Parent"     class="toggle-on"> <i class="fa fa-male"></i></a> 
+                    <a href="#" id="menuRestoreWinPos"      onclick="restoreWindowPos();return false;"      title="Restore Window Positions">   <i class="fa fa-th-large"></i></a> 
+                    <a href="#" id="menuUserCredentials"    onclick="getUserCredentials();return false;"    title="User Credentials">           <i class="fa fa-sign-in"></i></a> 
+                    <a href="#" id="menuAbout"              onclick="appAbout(); return false;"       title="About">                      <i class="fa fa-question-circle"></i></a>                 
+                </div>
+    </div>
+
+    <!-- D3 -->	
+    <script src="d3.min.js"></script>
+    <!-- Context Menu -->
+    <link rel="stylesheet" href="d3-context-menu.css" />
+    <script src="d3-context-menu.js"></script>
+    <!-- Menu Sidebar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- App Core JS -->
+    <link rel="stylesheet" href="app.css" />
+    <script src="apic-comms.js"></script>
+    <script src="apic-tree-update.js"></script>
+    <script src="apic-tree.js"></script>
+    <script src="input-handlers.js"></script>
+    <!-- App Windows -->
+    <script src="QueryFilterDialog.js"></script>
+    <script src="ObjectProperties.js"></script>
+    <script src="RootNodeSelection.js"></script>
+    <script src="AppMessages.js"></script>
+    <script src="ApicLoginCredentials.js"></script>
+    <script src="apic-app-init.js"></script>
+
+</body>
+
+<script>    
+    startup();
+</script>
