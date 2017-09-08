@@ -35,7 +35,7 @@ Usage Steps
 
 4. Open a tab and browse to the "dtree" folder and load "d3treeDyn1.html"
 
-5. Vaidate login details and click submit, the app should login to the APIC.
+5. Validate login details and click submit, the app should login to the APIC.
    
 Author
 ======
