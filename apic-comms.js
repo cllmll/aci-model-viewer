@@ -8,12 +8,10 @@
 var username;
 var password;
 var apicIP;
-username = 'geimiran131';
-password = 'geimiran131';
-apicIP = '198.19.254.61';
-//username = 'simonbirtles619';
-// password = 'simonbirtles619';
-// apicIP = '198.19.254.60';
+username = 'username';
+password = 'password';
+apicIP = '10.0.0.1';
+
 
 var webProtocol = "https://"
 var apicLoginDomain = "";
