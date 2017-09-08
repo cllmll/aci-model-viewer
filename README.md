@@ -14,9 +14,13 @@ Uses
    * Enables troubelshooting where compnents have not been configured correctly
    * Assists in writing scripts against the APIC by drilling down into the model to find data or objects
    
+   
+   
 ![alt text](/ss-1.PNG)
    
-   
+
+
+
 Important Notes
 ===============
  
