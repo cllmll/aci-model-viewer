@@ -15,9 +15,10 @@ Uses
    * Assists in writing scripts against the APIC by drilling down into the model to find data or objects
    
    
-   
+Drilling Down On A L3 Out   
 ![alt text](/ss-1.PNG)
    
+Drilling Through a Leaf Policy Bi-Directionally
 ![alt text](/ss-2.PNG)
 
 
