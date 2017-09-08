@@ -18,7 +18,7 @@ Uses
 Drilling Down On A L3 Out   
 ![alt text](/ss-1.PNG)
    
-Drilling Through a Leaf Policy Bi-Directionally
+Drilling Through a Leaf Policy Group Bi-Directionally
 ![alt text](/ss-2.PNG)
 
 
