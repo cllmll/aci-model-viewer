@@ -39,7 +39,7 @@ Usage Steps
 
 3. Open a tab in the chrome session and enter the APIC IP and accept the invalid certificate (only required if the APIC has the default self signed cert - if a public signed one has been installed then this does not need to be done)
 
-4. Open a tab and browse to the "dtree" folder and load "d3treeDyn1.html"
+4. Open a tab and browse to and open index.html
 
 5. Validate login details and click submit, the app should login to the APIC.
    
