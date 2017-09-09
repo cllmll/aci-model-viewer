@@ -4,14 +4,14 @@
 Cisco ACI APIC Model Viewer
 ===========================
 
-The ACI Model Viewer vidualises the APIC configuration through the use of graphs illustrating the configuration of the APIC. The model viewer has been used and added to over the last few years and hopefully will be of help to the community as it has been to me and my colleagues.  
+The ACI Model Viewer visualises the APIC configuration through the use of graphs illustrating the configuration of the APIC. The model viewer has been used and added to over the last few years and hopefully will be of help to the community as it has been to me and my colleagues.  
 
 
 Uses
 ====
 
    * Assists in learning how the model has been implemented
-   * Enables troubelshooting where compnents have not been configured correctly
+   * Enables troubelshooting where components have not been configured correctly
    * Assists in writing scripts against the APIC by drilling down into the model to find data or objects
    
    
