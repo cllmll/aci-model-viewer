@@ -152,7 +152,7 @@ class ObjectProperties
         tr.append("td").classed("obj-prop-attribute", true).append("text").text("MIM link:");
         tr.append("td").classed("obj-prop-value", true)
                             .append("a")
-                            .attr("href", "https://developer.cisco.com/media/mim-ref/MO-" + node.absclassname + ".html")
+                            .attr("href", "https://pubhub-prod.s3-us-west-2.amazonaws.com/media/apic-mim-ref/docs/MO-" + node.absclassname + ".html")
                             .attr("target", "_blank")
                             .html(node.absclassname);
      
