@@ -8,9 +8,9 @@
 var username;
 var password;
 var apicIP;
-username = 'username';
-password = 'password';
-apicIP = '10.0.0.1';
+username = 'admin';
+password = 'C1sco12345';
+apicIP = '198.18.133.200';
 
 
 var webProtocol = "https://"

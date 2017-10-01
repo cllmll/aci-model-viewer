@@ -389,43 +389,21 @@ function zoomFit2()
     // (all elements contained in <svg>, gets applied to all direct children)
     var rootsvg = d3.select("svg#msvg");
     var tformsvg = d3.zoomTransform(rootsvg.node());
-    //console.log("rootsvg Current T-Form Values (x,y,k)", tformsvg);
 
     // get root <g> h w
     var Gwidth = bounds.width;                               // <g> width
     var Gheight = bounds.height;                             // <g> height
 
-    //console.log("<g> real w h :", (Gwidth/tformsvg.k), (Gheight/tformsvg.k) );
-    //console.log("Gheight (scaled)", Gheight);
-    
-
-    //SVGfullHeight = window.innerHeight;
-    //console.log("SVGfullHeight", SVGfullHeight);
-
-
     //var scale =   Gheight / SVGfullHeight;
-    var scale =   (SVGfullHeight / (Gheight/tformsvg.k)) * .90 ;
-    //console.log("zoomFit2() = ", scale);
+    var scale =  2; // (SVGfullHeight / (Gheight/tformsvg.k)) * .90 ;
 
-
-    // y translation - center G in <svg> y plane
     // get svg mid point
-    var svgMidY = SVGfullHeight/2;
-    ////var gYtrans = svgMidY - ((Gheight/tformsvg.k)/2); 
-
-    //console.log("svg_g.top", bounds.top);
-    //console.log("svg_g.height", bounds.height);
-   //console.log("svg.height", SVGfullHeight);
-
-    ////var topSVGmargin = (SVGfullHeight - bounds.height)  / 2;
-    var tform_y = svgMidY;// + (Gheight/tformsvg.k)/2 ; //-(topSVGmargin - bounds.top - margin.top);
-
-    scale = 2;
+    var svgMidY = SVGfullHeight/1.5;
 
     var localSVG = d3.select("svg#msvg");
     localSVG.call(zoom.transform, 
                 d3.zoomIdentity
-                 .translate(margin.left, tform_y)
+                 .translate(margin.left, svgMidY)
                  .scale(scale));
 
     return scale;
