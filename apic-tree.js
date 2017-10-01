@@ -367,7 +367,7 @@ function showNodeProperties(node)
 
 function getUserCredentials()
 {
-    apicLoginCred.getUserCredentials();
+    //apicLoginCred.getUserCredentials();
 }
 
 function updateScale()
@@ -395,10 +395,10 @@ function zoomFit2()
     var Gheight = bounds.height;                             // <g> height
 
     //var scale =   Gheight / SVGfullHeight;
-    var scale =  2; // (SVGfullHeight / (Gheight/tformsvg.k)) * .90 ;
+    var scale =  2.7; // (SVGfullHeight / (Gheight/tformsvg.k)) * .90 ;
 
     // get svg mid point
-    var svgMidY = SVGfullHeight/1.5;
+    var svgMidY = SVGfullHeight; ///1.2;
 
     var localSVG = d3.select("svg#msvg");
     localSVG.call(zoom.transform, 
@@ -654,10 +654,10 @@ function appAbout()
 {
 
     var html = 
-    "Model Viewer for Cisco APIC<br>\
+    "APIC Managed Object Browser<br>\
      Version 1.0<br>\
-     Written by <a href='mailto:simon.birtles@haystacknetworks.com' target='_top'>Simon Birtles</a><br>\
-     Copyright (c) 2015-2017, Simon Birtles <a href='http://linkedin.com/in/simonbirtles' target='_top'>http://linkedin.com/in/simonbirtles</a><br>\
+     Written by <a href='mailto:simon.birtles@haystacknetworks.com' target='_top'>Simon Birtles @ Haystack Networks Ltd, UK </a><br>\
+     Copyright (c) 2016-2017, Haystack Networks Ltd, UK <a href='https://www.haystacknetworks.com' target='_blank'>www.haystacknetworks.com</a><br>\
      All rights reserved.<br>\
      Dual licensed under the MIT and GPL licenses.";
 

@@ -341,6 +341,7 @@ td.value{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     /*font-family:'Lucida Console';*/
     overflow: none;
+    cursor: default;
 }
 
                         /***** Dialog Header *****/
@@ -370,6 +371,7 @@ td.value{
     height: calc(100% - 60px);
     /* white-space: pre-line; */
     display: block;
+    cursor: default;
 }
 
                         /***** Dialog Footer *****/
@@ -381,6 +383,7 @@ td.value{
     bottom: 0px;
     width: 100%;    
     display: block;
+    cursor: default;
 }
 
 td.obj-prop-attribute{
