@@ -4,6 +4,11 @@
 Cisco ACI APIC Model Viewer
 ===========================
 
+*****************************************************************************************************
+IF YOU ARE LOOKING FOR THE STATELESS APP TO RUN EMBEDDED IN THE APIC (YOU SHOULD BE :-) ) 
+YOU NEED TO GO HERE >> https://haystacknetworks.com/cisco-apic-managed-object-browser
+*****************************************************************************************************
+
 The ACI Model Viewer visualises the APIC configuration through the use of graphs illustrating the configuration of the APIC. The model viewer has been used and added to over the last few years and hopefully will be of help to the community as it has been to me and my colleagues.  
 
 
